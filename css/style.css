@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Tanha' ;
+    background-image: url('../img/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+}
+@font-face{
+    font-family:'Tanha' ;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Tanha-FD.woff2);
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.toggle-sidbar{}
+.list_item_nav{
+    max-width: 10.5rem;
+    background-color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    backdrop-filter: blur(22px);
+    padding: 24px 24px 0 24px;
+    height: 500px;
+    border: 1px solid rgba(255,255,255,0.6);
+    
+}
+.list_item_nav li{
+    color: #fff;
+    display: flex;
+    margin-bottom: 20px;
+    height: 40px;
+    align-items: center;
+    padding: 4px 5px;
+    flex-wrap: nowrap;
+}
+.list_item_nav li i{
+    font-size: 33px;
+}
+.list_item_nav li a{
+    color: #fff;
+    flex: 1;
+    text-align: center;
+
+}
